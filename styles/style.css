@@ -131,11 +131,12 @@
 }
 
 .down {
+  display: block;
   background-blend-mode: multiply;
   text-align: center;
   width: 64px;
   height: 64px;
-  margin: 180px 0px 90px 720px;
+  margin: 180px auto 90px auto;
   border-radius: 50%;
   background: url("/img/arrow.png") center no-repeat;
   background-color: white;
